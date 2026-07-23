@@ -50,3 +50,31 @@ Mint authority was revoked before metadata could be attached — kept for histor
 - Public RPC airdrop 429 → https://faucet.solana.com
 - Do not commit `keys/*.json`
 - Create metadata **before** mint authority revoke
+
+## SPL Governance realm (Devnet) — created via CLI
+
+> **Why CLI?** Realms V2 (`v2.realms.today`) has **no Devnet network option** and redirects away from the old `?cluster=devnet` UI. Squads still has Devnet UI; Realms practice is on-chain for now.
+
+| Item | Value |
+|------|--------|
+| Realm name | `Verdant` |
+| Realm address | `91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay` |
+| Governance | `nYMAhcGy5bNZDkxdMTmgt5TrihkddEvfbF157Zfh9vs` |
+| Native treasury | `Bm42KJ8Q1EWEC7FWQ12atrxH5WhPZBrnV7TuLedc7p1` |
+| Community mint | `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD` |
+| Governance program | `GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw` |
+| Create realm tx | `2cQ8i4JHeqLSEQF85LVg5fb4ugavyh1DvK4hPfMQhF599ZN63ZEy7VFVfszo8kh34FbErc1SDguMTF1TYRGVrp62` |
+| Deposit + TOR tx | `Ctbk6wXtAjZqvmso3ihVCnJ8qdjYHgJfam4KMJWr84hWnGdL9KYFV8dn98Cz6GxgD1rwX7UM6pm3PmMmVA5wQVW` |
+| Governance + treasury tx | `4buiRnYaGKuHKz9zTBiLyC5AxoTFVKRDFVc5oGT1k7Y9tEsmY5KisevEKsTX7jgDjrLgASdc8W3T8vW3nyArFVpR` |
+
+### Explorer
+
+- Realm: https://explorer.solana.com/address/91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay?cluster=devnet
+- Governance: https://explorer.solana.com/address/nYMAhcGy5bNZDkxdMTmgt5TrihkddEvfbF157Zfh9vs?cluster=devnet
+
+### What this means for you
+
+1. **You are not missing a hidden Devnet button** — V2 simply does not expose Devnet.
+2. Focus browser work on **Squads Devnet**: https://devnet.squads.so/squads
+3. **Mainnet Realms**: use https://v2.realms.today after mainnet mint (with Devnet lesson applied).
+4. On-chain Devnet realm already exists for Verdant (see table above).

@@ -71,66 +71,38 @@ Squads holds assets and executes spends. On Devnet the UI options differ slightl
 
 # Part 2 — Realms (token voting)
 
-Realms is where VERD holders create and vote on proposals.
+### Important (July 2026): Realms V2 has **no Devnet**
 
-### URL (Devnet — important)
+- https://v2.realms.today is the current UI and appears **mainnet-only** (no network switch).  
+- Old links like `app.realms.today?cluster=devnet` **redirect into V2** and drop Devnet.  
+- **You are not missing a setting** — Devnet is not exposed in V2 right now.
 
-Use the **cluster query param**:
+### What we did instead
 
-**https://app.realms.today/realms?cluster=devnet**
+Created the **Verdant** realm **on-chain on Devnet** via script:
 
-(Also try: https://v2.realms.today with Devnet if the UI offers a network toggle.)
+| Item | Address |
+|------|---------|
+| Realm | `91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay` |
+| Governance | `nYMAhcGy5bNZDkxdMTmgt5TrihkddEvfbF157Zfh9vs` |
+| Native treasury | `Bm42KJ8Q1EWEC7FWQ12atrxH5WhPZBrnV7TuLedc7p1` |
+| Community mint | `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD` |
 
-### Step-by-step create DAO
+Explorer:  
+https://explorer.solana.com/address/91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay?cluster=devnet
 
-1. Open **https://app.realms.today/realms?cluster=devnet**  
-2. **Connect** Solflare → approve.  
-3. Confirm **Devnet** in the UI (URL should include `cluster=devnet`).  
-4. Click **Create DAO** / **Create Realm**.  
-5. Choose **Community Token DAO** (token holders vote — not NFT DAO).  
-6. **DAO name:** `Verdant`  
-7. **Community mint** (existing token): paste  
+Script: `scripts/governance-tool/create-realm-devnet.mjs`
 
-```text
-9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD
-```
+### What you should do in the browser
 
-8. **Do not** create a new mint — use the existing VERD mint above.  
-9. **Council:** for Devnet practice choose **no council** (or skip) to match our mainnet plan (pure token DAO).  
-10. **Min tokens to create proposal:** use something low for Devnet, e.g. **1000** or **10000** VERD (you have 1M).  
-11. **Yes vote threshold / quorum:** keep defaults or set low for practice (e.g. 1–5%).  
-12. Review → **Create** → approve all Solflare popups (there may be several).  
+1. **Skip Realms UI on Devnet** for now.  
+2. Finish **Squads** on https://devnet.squads.so/squads (that UI *does* support Devnet).  
+3. On **mainnet later**, create/use the realm in **https://v2.realms.today** after the mainnet mint ceremony.
 
-### Deposit VERD for voting power
+### Optional later
 
-1. Open your new Verdant realm.  
-2. Find **Deposit** / **My governance power** / **Account**.  
-3. Deposit some VERD (e.g. **100,000** VERD) into the realm.  
-4. Approve in Solflare.  
-5. Confirm voting power shows &gt; 0.
-
-### Three practice proposals
-
-| # | Title | Goal |
-|---|--------|------|
-| 1 | `V-000-test: Ratify charter (Devnet)` | **Pass** a policy-style proposal |
-| 2 | `V-001-test: Authorize practice spend` | **Pass** — then mirror with a Squads transfer |
-| 3 | Junk / empty | Let it **fail** or cancel to learn UX |
-
-For each:
-
-1. **New proposal** → description can be short.  
-2. On Devnet, instructions can be empty/text-only if the UI allows “discussion” style; if it requires an instruction, use a no-op or small SOL transfer from a realm wallet if one exists.  
-3. Vote **Yes** with your deposited VERD.  
-4. Wait for voting period (Devnet may be short or configurable).  
-5. Finalize / execute if the UI asks.
-
-### Link Squads + Realms (habit)
-
-After proposal 2 passes:
-
-1. Execute a Squads transfer with memo `V-001-test`.  
-2. Create `proofs/V-001-test/README.md` with both links (even on Devnet, labeled **NOT REAL IMPACT**).
+If Realms restores Devnet UI, search for realm name **Verdant** on Devnet or open by address  
+`91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay`.
 
 ---
 

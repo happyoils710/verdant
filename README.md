@@ -99,7 +99,8 @@ Full detail: [docs/tokenomics.md](./docs/tokenomics.md).
 | VERD mint | Mainnet | _TBD_ |
 | Squads multisig | Devnet | _TBD_ — see [walkthrough](./docs/squads-realms-walkthrough.md) |
 | Squads multisig | Mainnet | _TBD_ |
-| Realms realm | Devnet | _TBD_ — see [walkthrough](./docs/squads-realms-walkthrough.md) |
+| Realms realm | Devnet | `91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay` (on-chain; V2 UI has no Devnet) |
+| Governance | Devnet | `nYMAhcGy5bNZDkxdMTmgt5TrihkddEvfbF157Zfh9vs` |
 | Realms realm | Mainnet | _TBD_ |
 
 **Devnet mint explorer:**  
