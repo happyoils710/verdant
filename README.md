@@ -97,7 +97,7 @@ Full detail: [docs/tokenomics.md](./docs/tokenomics.md).
 | Token account (full supply) | Devnet | `FtEXuBZn6vSwtPbPvDQZXBxXXikxzqfBviFFwRveuRdg` |
 | Metadata URI | — | [metadata/token.json](https://raw.githubusercontent.com/happyoils710/verdant/main/metadata/token.json) |
 | VERD mint | Mainnet | _TBD_ |
-| Squads multisig | Devnet | **Practice execute OK** — paste address when available |
+| Squads multisig | Devnet | `BGXpoH7Z7m6ABQmzMnTvoTbCCayeVgJ1KxBvJ5Z9rWeJ` |
 | Squads multisig | Mainnet | _TBD_ |
 | Realms realm | Devnet | `91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay` (on-chain; V2 UI has no Devnet) |
 | Governance | Devnet | `nYMAhcGy5bNZDkxdMTmgt5TrihkddEvfbF157Zfh9vs` |

@@ -18,7 +18,7 @@ Devnet practice of the treasury **execution** path via Squads. No real carbon/RE
 
 ## Links (fill if you have them)
 
-- Squads address:
+- Squads address: `BGXpoH7Z7m6ABQmzMnTvoTbCCayeVgJ1KxBvJ5Z9rWeJ`
 - Squads execute tx:
 - Realm: `91hFR9ZK1RzDtHWb3866xCNWMubUqZFRXCMoGV9ZKmay`
 - VERD mint: `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD`

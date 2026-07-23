@@ -86,7 +86,8 @@ Mint authority was revoked before metadata could be attached — kept for histor
 | Status | **User executed a transaction successfully** |
 | UI | https://devnet.squads.so/squads |
 | Wallet | Solflare Devnet `5Hh5P9qxxWhfBADnWKjAv5g2ZuvVR2bqkAYDrKtpz9L3` |
-| Squad address | _paste when copied from Squads UI_ |
+| Squad address | `BGXpoH7Z7m6ABQmzMnTvoTbCCayeVgJ1KxBvJ5Z9rWeJ` |
 | Practice execute tx | _paste explorer link if saved_ |
 
 **Meaning:** Multisig create + approve/execute path works. Production mainnet will use **4-of-7** with real signers (not 1-of-1).
+| Explorer (Squads) | https://explorer.solana.com/address/BGXpoH7Z7m6ABQmzMnTvoTbCCayeVgJ1KxBvJ5Z9rWeJ?cluster=devnet |
