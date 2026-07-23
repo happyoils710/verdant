@@ -3,13 +3,15 @@
 Track the pre-mainnet week. Do not start mainnet mint, paid marketing, or impact claims until the exit gates below are green.
 
 ```text
-[ ] 0.x Decisions locked (DECISIONS.md)
-[ ] 1.x Tokenomics + claims policy published
-[ ] 2.x GitHub: charter, spend-policy, proposal-template
+[x] 0.x Decisions locked (DECISIONS.md)
+[x] 1.x Tokenomics + claims policy published
+[x] 2.x Repo docs: charter, spend-policy, proposal-template (+ V-000, mainnet runbook)
 [ ] 3.x Squads signers confirmed + Realms params written
 [ ] 4.x Devnet full loop + runbook with addresses
-[ ] 5.x V-001 draft + USDC/SOL budget + proof plan
+[ ] 5.x V-001 track + USDC/SOL budget + proof plan
 ```
+
+See also: [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md).
 
 ---
 
@@ -44,12 +46,16 @@ Track the pre-mainnet week. Do not start mainnet mint, paid marketing, or impact
 
 | # | Task | Status | Notes |
 |---|------|--------|--------|
-| 2.1 | Repo structure created | [x] | This repo |
+| 2.1 | Repo structure created | [x] | Root: `Desktop/Verdant` |
 | 2.2 | Charter | [x] | `docs/charter.md` |
 | 2.3 | Spend policy v0.1 | [x] | `docs/spend-policy.md` |
 | 2.4 | Eligible-assets note | [x] | In spend policy |
 | 2.5 | README | [x] | |
 | 2.6 | Disclaimer | [x] | README |
+| 2.7 | V-000 policy proposal | [x] | `proposals/V-000-ratify-charter.md` |
+| 2.8 | Mainnet runbook | [x] | `docs/mainnet-runbook.md` |
+| 2.9 | Signer invite template | [x] | `docs/signer-invite.md` |
+| 2.10 | Push public GitHub remote | [ ] | See NEXT-STEPS |
 
 **Exit gate:** Public links ready; mark **Draft v0.1 — ratify as V-000**.
 

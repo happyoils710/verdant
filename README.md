@@ -24,6 +24,10 @@ VERD is a **governance token**. Impact comes only from approved, executed treasu
 | [docs/proposal-template.md](./docs/proposal-template.md) | Required proposal fields |
 | [docs/governance-setup.md](./docs/governance-setup.md) | Squads + Realms plan |
 | [docs/devnet-runbook.md](./docs/devnet-runbook.md) | Devnet ceremony steps |
+| [docs/mainnet-runbook.md](./docs/mainnet-runbook.md) | Mainnet ceremony (after Devnet) |
+| [docs/signer-invite.md](./docs/signer-invite.md) | Multisig recruiter template |
+| [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md) | Ordered work remaining |
+| [proposals/V-000-ratify-charter.md](./proposals/V-000-ratify-charter.md) | Ratify policies (first vote) |
 | [proposals/V-001-draft.md](./proposals/V-001-draft.md) | First impact action draft |
 | [metadata/token.json](./metadata/token.json) | On-chain metadata template |
 | [proofs/](./proofs/) | Post-execution proof packages |
