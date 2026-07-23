@@ -61,12 +61,13 @@ git push -u origin main
 - [x] Devnet payer created: `7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi`  
 - [x] Mint script: `scripts/devnet-mint.sh`  
 - [x] Funded via faucet (5 SOL)  
-- [x] Mint + 100M supply + mint authority revoked  
-- [x] Mint: `Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH`  
+- [x] Canonical mint (metadata + revoke): `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD`  
+- [x] Metadata PDA: `DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr`  
 - [x] Addresses in README + `docs/devnet-addresses.md`  
-- [ ] Metadata (Metaplex) on Devnet  
-- [ ] Squads multisig practice  
-- [ ] Realms realm practice
+- [x] Walkthroughs for Squads/Realms + signer invite  
+- [ ] **You:** Squads multisig practice (browser)  
+- [ ] **You:** Realms realm practice (browser)  
+- [ ] **You:** Send signer invites
 
 ### 5. Fund path for real impact (not VERD-only)
 
@@ -78,7 +79,7 @@ git push -u origin main
 ## Then (mainnet)
 
 1. Pre-flight `docs/mainnet-runbook.md`  
-2. Ceremony: mint, allocate, **revoke**, metadata, Squads, Realms, modest LP  
+2. Ceremony: mint, metadata, allocate, **revoke mint**, Squads, Realms, modest LP  
 3. Publish addresses same day  
 4. Pass **V-000**, then **V-001**  
 5. Publish `proofs/V-001/`  
