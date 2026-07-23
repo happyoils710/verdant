@@ -60,10 +60,13 @@ git push -u origin main
 - [x] Solana CLI installed (`~/.local/solana/solana-release`)  
 - [x] Devnet payer created: `7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi`  
 - [x] Mint script: `scripts/devnet-mint.sh`  
-- [ ] **You:** fund payer via https://faucet.solana.com (Devnet)  
-- [ ] Run `./scripts/devnet-mint.sh`  
-- [ ] Metadata + Squads + Realms practice  
-- [ ] Paste final addresses into README  
+- [x] Funded via faucet (5 SOL)  
+- [x] Mint + 100M supply + mint authority revoked  
+- [x] Mint: `Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH`  
+- [x] Addresses in README + `docs/devnet-addresses.md`  
+- [ ] Metadata (Metaplex) on Devnet  
+- [ ] Squads multisig practice  
+- [ ] Realms realm practice
 
 ### 5. Fund path for real impact (not VERD-only)
 
