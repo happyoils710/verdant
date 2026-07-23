@@ -144,6 +144,67 @@ We don’t buy signers with unlocked allocations. That would undermine the whole
 
 ---
 
+## Where else to post (beyond X + Discord)
+
+Post **selectively**. Same text, slightly tuned per room. Prefer **builder / ops / climate** spaces over price chat.
+
+### High fit (try first)
+
+| Place | Why | How |
+|-------|-----|-----|
+| **Personal network** | Highest yes-rate | 10 DMs using private invite templates |
+| **Solana tech Discords** (builder/dev, not “gems”)** | Engineers who understand multisigs | Ops/dev channel; ask mods if unsure |
+| **Squads Discord / community** | People already use multisigs | Frame as “co-signer for treasury process,” not token launch |
+| **Realms / DAO ops communities** | Governance-literate | Same claims-safe post |
+| **Farcaster** | Builder-heavy, less CT spam | Use Farcaster version above |
+| **GitHub** | Permanent, serious tone | Discussion on your repo, or short note in README “Join” section |
+| **LinkedIn** | Climate/ops professionals | Slightly more formal; emphasize proof + open source docs |
+| **Climate × crypto forums / Discords** | Impact seat candidates | Stress serials/proof; no “offset the chain” |
+
+### Medium fit (careful tone)
+
+| Place | Notes |
+|-------|--------|
+| **Reddit** | r/solana **dev** or serious crypto subs if allowed; avoid moonshot subs. Read rules first. |
+| **Telegram** | Only groups you already trust; many are spam. |
+| **University / local climate or blockchain clubs** | Independent + impact seats; slower but high trust |
+| **Hackathon Slack/Discord** (recent Solana events) | Tech seats; people still job-hunting for meaningful work |
+| **Open-source climate tool repos** | Politely open an issue only if you might **fund** them later (V-002+) — don’t spam |
+
+### Low fit / usually skip
+
+| Place | Why skip |
+|-------|----------|
+| CT “alpha” / call channels | Attracts mercenaries and scammers |
+| Paid shill Telegram lists | Destroys legitimacy |
+| Random “hire for SOL” freelancing spam | Low quality signers |
+| Cold-tagging famous accounts | Looks desperate; almost zero success |
+
+### Offline / hybrid
+
+- Local Bitcoin/crypto meetups (Solana-friendly cities)  
+- Climate tech meetups (impact seat)  
+- Friends who are engineers but not “crypto Twitter” (often best independents)
+
+### Posting cadence (suggested)
+
+| Day | Action |
+|-----|--------|
+| 1 | X post + 5 private DMs |
+| 2 | 1–2 builder Discords + Farcaster |
+| 3 | LinkedIn or GitHub Discussion |
+| 4–7 | Follow up DMs; don’t re-spam the same channel |
+
+### Rules for every channel
+
+1. Lead with **GitHub docs**, not price.  
+2. Say **4-of-7**, **no shill duty**, **proof required**.  
+3. Never offer unlocked tokens for joining.  
+4. One post per community; don’t multi-account spam.  
+5. Log replies in `docs/signer-invite.md`.  
+
+---
+
 ## Posting tips
 
 1. Post from a real account with some history (not a brand-new bot).  
