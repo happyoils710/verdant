@@ -7,7 +7,8 @@
 
 VERD is a **governance token**. Impact comes only from approved, executed treasury spends with public proof — not from holding the token.
 
-> Status: **Draft v0.1** — documents below are intended for public review and later on-chain ratification (proposal **V-000**).
+> Status: **Draft v0.1** — public docs for review; on-chain ratification via proposal **V-000**.  
+> Repo: https://github.com/happyoils710/verdant
 
 ---
 

@@ -55,7 +55,7 @@ See also: [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md).
 | 2.7 | V-000 policy proposal | [x] | `proposals/V-000-ratify-charter.md` |
 | 2.8 | Mainnet runbook | [x] | `docs/mainnet-runbook.md` |
 | 2.9 | Signer invite template | [x] | `docs/signer-invite.md` |
-| 2.10 | Push public GitHub remote | [ ] | See NEXT-STEPS |
+| 2.10 | Push public GitHub remote | [x] | https://github.com/happyoils710/verdant |
 
 **Exit gate:** Public links ready; mark **Draft v0.1 — ratify as V-000**.
 

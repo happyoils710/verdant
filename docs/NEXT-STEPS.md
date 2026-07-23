@@ -34,9 +34,9 @@ git remote add origin git@github.com:<you>/<repo>.git
 git push -u origin main
 ```
 
-- [ ] Remote added and pushed  
-- [ ] Repo is **public** (legitimacy)  
-- [ ] Update `metadata/token.json` GitHub URLs after push  
+- [x] Remote added and pushed — https://github.com/happyoils710/verdant  
+- [x] Repo is **public** (legitimacy)  
+- [x] Update `metadata/token.json` GitHub URLs after push  
 
 ### 2. Recruit signers (blocker for real treasury)
 
