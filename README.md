@@ -12,10 +12,23 @@ VERD is a **governance token**. Impact comes only from approved, executed treasu
 
 ---
 
+## Join — multisig signers wanted
+
+We’re recruiting **independent Squads co-signers** (target **4-of-7**) for a proof-first treasury.
+
+- **Not** a “hold VERD = carbon offset” project  
+- Low time · no shill duty · pubkey + role public (legal name optional)  
+- **How to apply:** open a GitHub Issue titled `Signer interest: [seat]` — details in **[JOIN.md](./JOIN.md)**
+
+Seats: technical · independent · impact · community / public goods · security-minded  
+
+---
+
 ## Quick links
 
 | Doc | Purpose |
 |-----|---------|
+| [JOIN.md](./JOIN.md) | **How to join as a multisig signer** |
 | [DECISIONS.md](./DECISIONS.md) | Locked product decisions |
 | [CHECKLIST.md](./CHECKLIST.md) | Immediate launch checklist |
 | [docs/charter.md](./docs/charter.md) | Mission and principles |
