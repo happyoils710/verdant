@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*-keypair.json
+id.json
+.solana/
+node_modules/
+.idea/
+.vscode/
+*.log
