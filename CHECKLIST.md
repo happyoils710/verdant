@@ -92,20 +92,20 @@ See also: [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md).
 | 4.6 | Attach metadata | [x] | PDA `DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr` |
 | 4.7 | Revoke mint authority | [x] | After metadata |
 | 4.8 | Freeze authority none/revoked | [x] | Never set |
-| 4.9 | Create Squads multisig | [ ] | |
-| 4.10 | Labeled vaults | [ ] | Impact / Public Goods / Ops |
-| 4.11 | Practice transfer + memo | [ ] | |
-| 4.12 | Practice rejection | [ ] | |
-| 4.13 | Create Realms realm | [ ] | |
-| 4.14 | Deposit/vote with test VERD | [ ] | |
-| 4.15 | Pass policy proposal | [ ] | |
-| 4.16 | Pass spend proposal | [ ] | |
-| 4.17 | Fail a bad proposal | [ ] | |
-| 4.18 | Fill runbook with addresses | [ ] | |
-| 4.19 | Note footguns | [ ] | |
-| 4.20 | Time the ceremony | [ ] | |
+| 4.9 | Create Squads multisig | [x] | Devnet UI — user executed successfully |
+| 4.10 | Labeled vaults | [ ] | Impact / Public Goods / Ops (optional labels) |
+| 4.11 | Practice transfer + memo | [x] | Execution confirmed by user |
+| 4.12 | Practice rejection | [ ] | Optional |
+| 4.13 | Create Realms realm | [x] | On-chain CLI (V2 UI has no Devnet) |
+| 4.14 | Deposit/vote with test VERD | [x] | Ceremony payer deposited 100k VERD |
+| 4.15 | Pass policy proposal | [ ] | UI blocked on Devnet; mainnet V-000 |
+| 4.16 | Pass spend proposal | [ ] | Mainnet after V-000 |
+| 4.17 | Fail a bad proposal | [ ] | Optional |
+| 4.18 | Fill runbook with addresses | [x] | `docs/devnet-addresses.md` |
+| 4.19 | Note footguns | [x] | Metadata before revoke; Realms V2 no Devnet |
+| 4.20 | Time the ceremony | [ ] | Optional |
 
-**Exit gate:** Mint → metadata → revoke → Squads → Realms → sample spend works end-to-end.
+**Exit gate (Devnet):** Mint → metadata → revoke → **Squads execute** ✅ · Realms on-chain ✅ (UI vote deferred to mainnet)
 
 ---
 

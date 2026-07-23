@@ -65,8 +65,8 @@ git push -u origin main
 - [x] Metadata PDA: `DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr`  
 - [x] Addresses in README + `docs/devnet-addresses.md`  
 - [x] Walkthroughs for Squads/Realms + signer invite  
-- [ ] **You:** Squads multisig practice (browser)  
-- [ ] **You:** Realms realm practice (browser)  
+- [x] **You:** Squads multisig practice (browser) — execute OK  
+- [x] Realms realm on-chain (CLI); browser UI blocked on Devnet  
 - [ ] **You:** Send signer invites
 
 ### 5. Fund path for real impact (not VERD-only)

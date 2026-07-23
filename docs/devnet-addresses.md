@@ -78,3 +78,15 @@ Mint authority was revoked before metadata could be attached — kept for histor
 2. Focus browser work on **Squads Devnet**: https://devnet.squads.so/squads
 3. **Mainnet Realms**: use https://v2.realms.today after mainnet mint (with Devnet lesson applied).
 4. On-chain Devnet realm already exists for Verdant (see table above).
+
+## Squads (Devnet) — practice complete
+
+| Item | Value |
+|------|--------|
+| Status | **User executed a transaction successfully** |
+| UI | https://devnet.squads.so/squads |
+| Wallet | Solflare Devnet `5Hh5P9qxxWhfBADnWKjAv5g2ZuvVR2bqkAYDrKtpz9L3` |
+| Squad address | _paste when copied from Squads UI_ |
+| Practice execute tx | _paste explorer link if saved_ |
+
+**Meaning:** Multisig create + approve/execute path works. Production mainnet will use **4-of-7** with real signers (not 1-of-1).
