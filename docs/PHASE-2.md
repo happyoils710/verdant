@@ -38,10 +38,11 @@
 **Actions this week**
 
 1. List 10 names (expect ~half yes).  
-2. Send messages from `docs/signer-invites-ready-to-send.md`.  
-3. Collect Devnet + Mainnet pubkeys.  
-4. Fill `docs/governance-setup.md` roster.  
-5. Optional: add 1–2 people to Devnet Squad for a multi-signer drill.
+2. Send private messages from `docs/signer-invites-ready-to-send.md`.  
+3. Post public call from `docs/signer-recruitment-public-post.md` (X + 1–2 Discords).  
+4. Collect Devnet + Mainnet pubkeys.  
+5. Fill `docs/governance-setup.md` roster.  
+6. Optional: add 1–2 people to Devnet Squad for a multi-signer drill.
 
 ---
 
