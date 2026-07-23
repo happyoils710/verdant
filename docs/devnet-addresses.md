@@ -1,41 +1,52 @@
-# Devnet addresses (auto-written by scripts/devnet-mint.sh)
+# Devnet addresses
 
 **Network:** devnet  
-**Generated:** 2026-07-23T17:33:37Z
+**Generated:** 2026-07-23T17:39:43.007Z  
+**Ceremony:** mint → metadata → supply → revoke mint authority
+
+## Canonical Devnet mint (with metadata)
 
 | Item | Value |
 |------|--------|
 | Payer | `7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi` |
-| VERD mint | `Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH` |
+| VERD mint | `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD` |
+| Metadata PDA | `DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr` |
+| Metadata URI | `https://raw.githubusercontent.com/happyoils710/verdant/main/metadata/token.json` |
+| Token account (full supply) | `FtEXuBZn6vSwtPbPvDQZXBxXXikxzqfBviFFwRveuRdg` |
 | Supply | 100000000 |
 | Decimals | 6 |
 | Mint authority | **revoked** |
-| Explorer (mint) | https://explorer.solana.com/address/Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH?cluster=devnet |
+| Freeze authority | **none** |
+| Explorer (mint) | https://explorer.solana.com/address/9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD?cluster=devnet |
+| Explorer (metadata) | https://explorer.solana.com/address/DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr?cluster=devnet |
 
 ## Transaction signatures
 
 | Step | Signature |
 |------|-----------|
-| Create mint | `37oK7VPMujL5io6dYUiaPiaENS6dQnuox37896B4gtdsAuv358KxK53cWmJZVPMpDLoGc9KcFbghPdkn4cXySQnv` |
-| Create token account | `5YBLxWv4mygTGV7tvnew8786xkoC4qhjYGgktkPjm68mWFDxD4UrWwWEFdjMbPYgJRd9ox8H9oGgxyxSLBUTZUSC` |
-| Mint 100M | `51M2GKpfGJxKBUJMtaUCNp6ty1MUBNnqscw8c2nnTcrWUqBECVhpj9AWFZNHg7A7dFpDuygA26PSkgMv313BWYUa` |
-| Revoke mint authority | `23vM8TX1ynozVKGeRPgrytcRFQow4Zxqv11y2RqWQFcFrbQMKeDtuX48SNck7VJ1UJbXznacE1TnXQYhKSfa5XvR` |
+| Create mint | `4erY4p4bw6Kx752F6xfiE7jBb5E1qBhc3iKMrYxrubUdwzDupM5gNpqPL1urVhh7Me7vGejwUQRPYbCLmkcgiMD6` |
+| Create metadata | `21rMu9qyxdF2S1S15Pa8qVvkaVAzJ6rR1GF1nobkhAczHYHeA553PsGahfck9iEXzD3FKCudgooZP5dC6u23SRio` |
+| ATA + mint 100M | `3hKyAaLXH5pzDtPzRZ5usKmUSexNyRK4MecjdT8uqhy7NqKQfLHhN1DFvEd11CcD97JWN8tHdhYcQhKwfugckteq` |
+| Revoke mint authority | `3nnsMrHUcG8JCJWavKL3jVMSpQaVQ5fhRtvn1ML4ss7nc4qKwmykgajjkUXDEtBH2QShCdhc62pbJkhRj8PD6aLH` |
 
-## Token account
+## Earlier rehearsal mint (supply-only; no metadata)
+
+Mint authority was revoked before metadata could be attached — kept for history.
 
 | Item | Value |
 |------|--------|
-| ATA / token account | `FyszpE8opZt2WCRMFnDzg5L6jM8aGwN7hG4H69m6zmEM` |
-| Holds | 100,000,000 VERD (full supply for rehearsal) |
+| Mint | `Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH` |
+| Token account | `FyszpE8opZt2WCRMFnDzg5L6jM8aGwN7hG4H69m6zmEM` |
+| Note | Lesson: always create metadata **before** revoking mint authority |
 
-## Next (manual / UI)
+## Next
 
-1. Attach Metaplex metadata (name Verdant, symbol VERD, URI → metadata/token.json hosted)
-2. Create Squads multisig on Devnet; practice transfer with memo `V-001-test`
-3. Create Realms realm governed by this mint
-4. Record Squads + Realms IDs in README and this file
+1. Squads multisig practice — see `docs/squads-realms-walkthrough.md`
+2. Realms realm practice — same doc
+3. Mainnet: same order (metadata before revoke); update authority → Squads
 
 ## Footguns
 
-- Public RPC airdrop often 429 — use https://faucet.solana.com with GitHub login
+- Public RPC airdrop 429 → https://faucet.solana.com
 - Do not commit `keys/*.json`
+- Create metadata **before** mint authority revoke

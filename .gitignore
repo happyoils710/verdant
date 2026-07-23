@@ -6,7 +6,10 @@
 id.json
 .solana/
 node_modules/
+**/node_modules/
 .idea/
 .vscode/
 *.log
 keys/
+package-lock.json
+scripts/metadata-tool/package-lock.json

@@ -32,6 +32,9 @@ VERD is a **governance token**. Impact comes only from approved, executed treasu
 | [docs/fund-plan.md](./docs/fund-plan.md) | Seed USDC/SOL for V-001 |
 | [scripts/devnet-mint.sh](./scripts/devnet-mint.sh) | Automated Devnet mint + revoke |
 | [docs/devnet-addresses.md](./docs/devnet-addresses.md) | Live Devnet mint + tx signatures |
+| [docs/squads-realms-walkthrough.md](./docs/squads-realms-walkthrough.md) | Squads + Realms practice steps |
+| [docs/metadata-walkthrough.md](./docs/metadata-walkthrough.md) | Token metadata notes |
+| [docs/signer-recruitment.md](./docs/signer-recruitment.md) | Multisig recruitment |
 | [proposals/V-000-ratify-charter.md](./proposals/V-000-ratify-charter.md) | Ratify policies (first vote) |
 | [proposals/V-001-draft.md](./proposals/V-001-draft.md) | First impact action draft |
 | [metadata/token.json](./metadata/token.json) | On-chain metadata template |
@@ -89,19 +92,21 @@ Full detail: [docs/tokenomics.md](./docs/tokenomics.md).
 | Item | Network | Address |
 |------|---------|---------|
 | Devnet payer | Devnet | `7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi` |
-| VERD mint | Devnet | `Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH` |
-| Token account (full supply) | Devnet | `FyszpE8opZt2WCRMFnDzg5L6jM8aGwN7hG4H69m6zmEM` |
+| VERD mint (canonical) | Devnet | `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD` |
+| Metadata PDA | Devnet | `DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr` |
+| Token account (full supply) | Devnet | `FtEXuBZn6vSwtPbPvDQZXBxXXikxzqfBviFFwRveuRdg` |
+| Metadata URI | — | [metadata/token.json](https://raw.githubusercontent.com/happyoils710/verdant/main/metadata/token.json) |
 | VERD mint | Mainnet | _TBD_ |
-| Squads multisig | Devnet | _TBD_ |
+| Squads multisig | Devnet | _TBD_ — see [walkthrough](./docs/squads-realms-walkthrough.md) |
 | Squads multisig | Mainnet | _TBD_ |
-| Realms realm | Devnet | _TBD_ |
+| Realms realm | Devnet | _TBD_ — see [walkthrough](./docs/squads-realms-walkthrough.md) |
 | Realms realm | Mainnet | _TBD_ |
-| Metadata URI | — | _TBD_ |
 
 **Devnet mint explorer:**  
-https://explorer.solana.com/address/Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH?cluster=devnet  
+https://explorer.solana.com/address/9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD?cluster=devnet  
 
-Mint authority: **revoked**. Supply: **100,000,000** VERD (6 decimals). Full address log: [docs/devnet-addresses.md](./docs/devnet-addresses.md).
+Mint authority: **revoked**. Metadata: **attached**. Supply: **100,000,000** VERD (6 decimals).  
+Full log: [docs/devnet-addresses.md](./docs/devnet-addresses.md).
 
 ---
 

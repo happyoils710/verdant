@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Verdant">
+  <rect width="512" height="512" rx="96" fill="#0B1F17"/>
+  <path d="M256 88c-8 72-40 120-96 160 56 8 96 40 120 96 24-56 64-88 120-96-56-40-88-88-96-160z" fill="#3DDC97"/>
+  <path d="M256 200c-4 48-24 80-64 108 40 6 64 28 80 68 16-40 40-62 80-68-40-28-60-60-64-108z" fill="#1FA86A"/>
+  <rect x="248" y="300" width="16" height="100" rx="8" fill="#2E8B57"/>
+  <circle cx="256" cy="420" r="10" fill="#3DDC97" opacity="0.9"/>
+</svg>

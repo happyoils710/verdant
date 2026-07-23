@@ -74,7 +74,19 @@ spl-token display <MINT>
 
 ---
 
-## Phase 2 — Revoke authorities (same session)
+## Phase 2 — Metadata (**before** revoke)
+
+> Devnet lesson: metadata **cannot** be created after mint authority is revoked.
+
+1. [ ] Create Metaplex metadata: name `Verdant`, symbol `VERD`, URI → final JSON (Arweave/IPFS preferred on mainnet)  
+2. [ ] Verify on explorer / Solscan  
+3. [ ] Prefer update authority → **Squads** (create Squads first, or transfer update authority immediately after)  
+
+Reference script order: `scripts/metadata-tool/full-devnet-ceremony.mjs`
+
+---
+
+## Phase 3 — Revoke authorities (same session, after metadata)
 
 ```bash
 spl-token authorize <MINT> mint --disable
@@ -86,20 +98,7 @@ spl-token display <MINT>
 - [ ] Mint authority: **disabled** (explorer screenshot + tx)  
 - [ ] Freeze authority: **none / disabled**  
 
-**Stop if revoke fails.** Do not proceed to marketing or LP until revoke is confirmed.
-
----
-
-## Phase 3 — Metadata
-
-1. [ ] Create Metaplex (or chosen) metadata: name `Verdant`, symbol `VERD`, URI → final JSON  
-2. [ ] Verify on explorer / Solscan  
-3. [ ] Set **update authority** to Squads multisig (after Squads exists — order: create Squads first if needed, or temporary authority then transfer)  
-
-**Recommended order if update authority must be multisig:**
-
-1. Create Squads  
-2. Create metadata with update authority = Squads (or transfer immediately after)  
+**Stop if revoke fails.** Do not proceed to marketing or LP until revoke is confirmed. 
 
 ---
 

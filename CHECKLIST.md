@@ -87,10 +87,10 @@ See also: [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md).
 | 4.1 | Devnet SOL funded | [ ] | |
 | 4.2 | Tooling installed | [ ] | solana, spl-token, wallets |
 | 4.3 | Runbook ready | [x] | `docs/devnet-runbook.md` |
-| 4.4 | Create mint (6 decimals) | [x] | `Co3Zir8MhuFMFwxBMCXPwRE6hYLBQMoLNijLaudjgstH` |
-| 4.5 | Mint 100M to test allocations | [x] | Account `FyszpE8opZt2WCRMFnDzg5L6jM8aGwN7hG4H69m6zmEM` |
-| 4.6 | Attach metadata | [ ] | Use `metadata/token.json` |
-| 4.7 | Revoke mint authority | [x] | Confirmed disabled |
+| 4.4 | Create mint (6 decimals) | [x] | Canonical: `9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD` |
+| 4.5 | Mint 100M to test allocations | [x] | Account `FtEXuBZn6vSwtPbPvDQZXBxXXikxzqfBviFFwRveuRdg` |
+| 4.6 | Attach metadata | [x] | PDA `DAr4dr6QgJ6dsd3S7tD5pUVCSygVc8BWukeHBZRrUdnr` |
+| 4.7 | Revoke mint authority | [x] | After metadata |
 | 4.8 | Freeze authority none/revoked | [x] | Never set |
 | 4.9 | Create Squads multisig | [ ] | |
 | 4.10 | Labeled vaults | [ ] | Impact / Public Goods / Ops |

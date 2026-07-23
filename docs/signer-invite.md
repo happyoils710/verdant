@@ -14,12 +14,20 @@ Invitation to be a Verdant (VERD) treasury multisig signer
 
 Hi [Name],
 
-I’m putting together **Verdant (VERD)** — a Solana **governance token** whose community treasury funds:
+I’m building **Verdant (VERD)** — a Solana **governance token** whose community treasury funds:
 
 1. Verifiable sustainability actions (with public proof), and  
 2. Solana public goods that have real environmental co-benefits.
 
-This is **not** a “holding the token offsets carbon” project. Impact only happens via transparent treasury spends. Docs: [repo link].
+This is **not** a “holding the token offsets carbon” project. Impact only happens via transparent treasury spends.
+
+**Docs:** https://github.com/happyoils710/verdant  
+**Charter:** https://github.com/happyoils710/verdant/blob/main/docs/charter.md  
+**Claims policy:** https://github.com/happyoils710/verdant/blob/main/docs/claims-policy.md  
+
+Devnet mint (rehearsal, metadata live):  
+`9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD`  
+https://explorer.solana.com/address/9ztetjHjtMrywnLasPtowMn6HivydUQ2uTaLocBscbZD?cluster=devnet
 
 ### What I’m asking
 
@@ -27,11 +35,11 @@ Would you serve as a **Squads multisig signer** for the Verdant treasury?
 
 | Item | Detail |
 |------|--------|
-| Role | [Ops / Technical / Independent / Impact / Community] |
-| Threshold (target) | e.g. 4-of-7 |
+| Role | [Ops / Technical / Independent / Impact / Community / Security] |
+| Threshold | **4-of-7** |
 | Networks | Practice on **Devnet**, then **Mainnet** |
 | Time | Review + sign execution txs within ~72h when a passed proposal needs execution |
-| Compensation | [None / VERD vest / other — be explicit] |
+| Compensation | **None** (or small vested VERD later — disclosed, not from Impact vault) |
 
 ### What you would **not** be
 
@@ -48,12 +56,12 @@ Would you serve as a **Squads multisig signer** for the Verdant treasury?
 ### Next steps if yes
 
 1. Reply with: role OK, Devnet pubkey, Mainnet pubkey (can be same or different)  
-2. I’ll add you to `docs/governance-setup.md`  
-3. We do a short Devnet signing drill  
+2. I’ll add you to the public roster in `docs/governance-setup.md`  
+3. We do a short Devnet signing drill (Squads)  
 4. Mainnet Squads creation only after the full signer set is confirmed  
 
-Full governance plan: `docs/governance-setup.md`  
-Claims we never make: `docs/claims-policy.md`
+Full plan: https://github.com/happyoils710/verdant/blob/main/docs/governance-setup.md  
+Recruitment notes: https://github.com/happyoils710/verdant/blob/main/docs/signer-recruitment.md  
 
 Thanks for considering it — happy to jump on a call if useful.
 
@@ -65,10 +73,10 @@ Thanks for considering it — happy to jump on a call if useful.
 
 | Candidate | Role | Invited | Reply | Devnet pk | Mainnet pk | Confirmed |
 |-----------|------|---------|-------|-----------|------------|-----------|
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
+| | Ops | | | | | |
+| | Technical | | | | | |
+| | Technical backup | | | | | |
+| | Independent | | | | | |
+| | Impact | | | | | |
+| | Community | | | | | |
+| | Security | | | | | |
