@@ -28,6 +28,9 @@ VERD is a **governance token**. Impact comes only from approved, executed treasu
 | [docs/mainnet-runbook.md](./docs/mainnet-runbook.md) | Mainnet ceremony (after Devnet) |
 | [docs/signer-invite.md](./docs/signer-invite.md) | Multisig recruiter template |
 | [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md) | Ordered work remaining |
+| [docs/signer-recruitment.md](./docs/signer-recruitment.md) | How to fill the multisig |
+| [docs/fund-plan.md](./docs/fund-plan.md) | Seed USDC/SOL for V-001 |
+| [scripts/devnet-mint.sh](./scripts/devnet-mint.sh) | Automated Devnet mint + revoke |
 | [proposals/V-000-ratify-charter.md](./proposals/V-000-ratify-charter.md) | Ratify policies (first vote) |
 | [proposals/V-001-draft.md](./proposals/V-001-draft.md) | First impact action draft |
 | [metadata/token.json](./metadata/token.json) | On-chain metadata template |
@@ -84,7 +87,8 @@ Full detail: [docs/tokenomics.md](./docs/tokenomics.md).
 
 | Item | Network | Address |
 |------|---------|---------|
-| VERD mint | Devnet | _TBD_ |
+| Devnet payer | Devnet | `7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi` |
+| VERD mint | Devnet | _run `./scripts/devnet-mint.sh` after faucet_ |
 | VERD mint | Mainnet | _TBD_ |
 | Squads multisig | Devnet | _TBD_ |
 | Squads multisig | Mainnet | _TBD_ |

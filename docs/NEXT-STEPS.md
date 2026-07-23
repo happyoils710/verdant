@@ -40,35 +40,35 @@ git push -u origin main
 
 ### 2. Recruit signers (blocker for real treasury)
 
-- [ ] List 5–7 candidates  
+- [x] Threshold locked: **4-of-7**  
+- [x] No council (pure token DAO)  
+- [x] Recruitment runbook: `docs/signer-recruitment.md`  
+- [ ] List 7+ candidates in scratchpad  
 - [ ] Send `docs/signer-invite.md`  
 - [ ] Fill table in `docs/governance-setup.md`  
-- [ ] Choose threshold (4-of-7 or 5-of-7)  
-- [ ] Decide council vs pure token for first 90 days  
 
 ### 3. Pick V-001 track
 
-Open `proposals/V-001-draft.md`:
-
-- [ ] Track A (retire credits/RECs) **or** Track B (OSS/public goods grant)  
-- [ ] Set USDC/SOL max budget  
-- [ ] Name counterparty + proof type  
-- [ ] Confirm &lt;30 day feasibility  
+- [x] **Track A** selected (retire credits/RECs)  
+- [x] Budget max **$500 USDC**  
+- [x] Fund plan: `docs/fund-plan.md`  
+- [ ] Name counterparty + registry before vote  
+- [ ] Confirm &lt;30 day feasibility with vendor  
 
 ### 4. Devnet rehearsal
 
-Follow `docs/devnet-runbook.md` end-to-end:
-
-- [ ] Mint → metadata → revoke → Squads → Realms → sample spend  
-- [ ] Paste addresses into runbook + README  
-- [ ] Log footguns  
+- [x] Solana CLI installed (`~/.local/solana/solana-release`)  
+- [x] Devnet payer created: `7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi`  
+- [x] Mint script: `scripts/devnet-mint.sh`  
+- [ ] **You:** fund payer via https://faucet.solana.com (Devnet)  
+- [ ] Run `./scripts/devnet-mint.sh`  
+- [ ] Metadata + Squads + Realms practice  
+- [ ] Paste final addresses into README  
 
 ### 5. Fund path for real impact (not VERD-only)
 
-V-001 needs **USDC or SOL** in a vault. Plan how that cash enters the treasury (personal seed, raise, grant, etc.) **without** forbidden claims.
-
-- [ ] Written plan for initial USDC/SOL  
-- [ ] Ops vs Impact split clear  
+- [x] Written plan: `docs/fund-plan.md`  
+- [ ] Actually seed Impact vault ≥ $500 USDC before V-001 execution
 
 ---
 

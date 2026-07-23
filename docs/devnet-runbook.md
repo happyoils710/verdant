@@ -10,15 +10,31 @@ Complete this runbook before any mainnet ceremony. Record real addresses in the 
 
 ## Prerequisites
 
-- [ ] Solana CLI installed (`solana --version`)  
-- [ ] `spl-token` CLI available  
-- [ ] Wallet(s) funded with Devnet SOL ([faucet](https://faucet.solana.com))  
+- [x] Solana CLI installed (local: `~/.local/solana/solana-release/bin`, v2.1.21)  
+- [x] `spl-token` CLI available  
+- [ ] Wallet funded with Devnet SOL ([faucet.solana.com](https://faucet.solana.com) — **GitHub login often required**; public RPC airdrop often returns 429)  
 - [ ] Browser wallets ready for Squads / Realms UIs  
 - [ ] `metadata/token.json` content staged (host URI or upload to IPFS/Arweave)  
 - [ ] Signer pubkeys listed in `governance-setup.md`  
 
+**Automated mint path:** after funding, run:
+
 ```bash
+export PATH="$HOME/.local/solana/solana-release/bin:$PATH"
+cd ~/Desktop/Verdant
+./scripts/devnet-mint.sh
+```
+
+Devnet payer pubkey (safe to share):
+
+```text
+7BQBEgo7RwGhrpa71FED1FQhiGQBPfEH6dGADGuGLjBi
+```
+
+```bash
+export PATH="$HOME/.local/solana/solana-release/bin:$PATH"
 solana config set --url https://api.devnet.solana.com
+solana config set --keypair ~/Desktop/Verdant/keys/devnet-payer.json
 solana config get
 solana balance
 ```
@@ -166,8 +182,9 @@ Use this to schedule mainnet day with signers online.
 
 | Issue | Cause | Fix |
 |-------|--------|-----|
-| | | |
-| | | |
+| `airdrop request failed` / RPC 429 | Public Devnet faucet dry or rate-limited | Use https://faucet.solana.com with GitHub login |
+| Official `agave-install` aborts on macOS | Missing `libusb` / broken Homebrew | Use release tarball under `~/.local/solana/solana-release` |
+| Keys almost committed | Local keypair in repo | `keys/` is gitignored; never force-add |
 
 ---
 

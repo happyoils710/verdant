@@ -33,22 +33,26 @@ Squads multisig (holds assets, executes transfers)
 
 | Parameter | v0.1 target |
 |-----------|-------------|
-| Members | 5–7 |
-| Threshold | **4-of-7** or **5-of-7** (choose before create) |
+| Members | **7** (fill seats; start with 5 if needed, grow to 7) |
+| Threshold | **4-of-7** (locked recommendation — majority without 2/3 friction) |
 | Networks | Devnet practice → Mainnet production |
 | Public page | Roles published; wallets published |
+
+**Locked default:** threshold **4-of-7**. Change only via Policy proposal after go-live.
 
 ### Signer roster (fill in)
 
 | # | Role | Name / org | Devnet pubkey | Mainnet pubkey | Confirmed (Y/N) |
 |---|------|------------|---------------|----------------|-----------------|
-| 1 | Ops / coordinator | | | | N |
+| 1 | Ops / coordinator | _founder / core_ | | | N |
 | 2 | Technical | | | | N |
 | 3 | Technical backup | | | | N |
 | 4 | Independent (non-founder) | | | | N |
 | 5 | Impact / domain | | | | N |
 | 6 | Community / public goods | | | | N |
-| 7 | Optional seat | | | | N |
+| 7 | Security / legal ops | | | | N |
+
+**Recruitment pack:** send `docs/signer-invite.md` · track replies in that file’s table.
 
 **Avoid:** 3-of-3 all founders.
 
@@ -74,7 +78,7 @@ Squads multisig (holds assets, executes transfers)
 
 | Item | Draft rule |
 |------|------------|
-| Monthly ops without full vote | ≤ $X USDC (set X when treasury funded) |
+| Monthly ops without full vote | ≤ **$250 USDC** (raise only by Policy proposal) |
 | Emergency security move | Any size to cold/safe venue; disclose 72h |
 | Impact buys without vote | **Not allowed** |
 
@@ -92,13 +96,13 @@ Squads multisig (holds assets, executes transfers)
 
 ### Draft parameters (tune on Devnet)
 
-| Parameter | Starting suggestion | Notes |
+| Parameter | Locked v0.1 default | Notes |
 |-----------|---------------------|--------|
-| Min tokens to create proposal | 0.5%–1% of votable supply | Anti-spam; lower later |
-| Voting duration | 3–7 days | Shorter for pure ops if council used |
-| Quorum | 5%–10% of votable | Revisit at milestones |
-| Approval threshold | Majority of yes vs yes+no (as Realms allows) | Document exact Realms setting |
-| Timelock / hold-up | 24–72h for large spends | Encode in process even if manual |
+| Min tokens to create proposal | **1%** of votable supply | Anti-spam; lower later by vote |
+| Voting duration | **5 days** | |
+| Quorum | **5%** of votable | Revisit after first 3 proposals |
+| Approval threshold | Majority of yes vs yes+no (as Realms allows) | Document exact Realms setting at create |
+| Timelock / hold-up | **48h** for spends ≥ $1,000 USDC equiv. | Process rule + Squads delay if available |
 
 ### Council (optional first 90 days)
 
@@ -109,7 +113,7 @@ Squads multisig (holds assets, executes transfers)
 
 If **B**: publish council wallets, powers, and **sunset date**. Council must not replace V-001 legitimacy.
 
-**Decision:** _[ ] A  [ ] B — choose before mainnet_
+**Decision (locked v0.1):** **A — No council.** Pure token DAO from day one. Multisig only executes passed proposals (+ narrow emergency).
 
 ### Proposal categories (tags)
 
