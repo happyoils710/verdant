@@ -6,12 +6,12 @@ Track the pre-mainnet week. Do not start mainnet mint, paid marketing, or impact
 [x] 0.x Decisions locked (DECISIONS.md)
 [x] 1.x Tokenomics + claims policy published
 [x] 2.x Repo docs: charter, spend-policy, proposal-template (+ V-000, mainnet runbook)
-[ ] 3.x Squads signers confirmed + Realms params written
-[x] 4.x Devnet mint + revoke (metadata/Squads/Realms still open)
-[ ] 5.x V-001 counterparty + fund Impact vault
+[ ] 3.x Squads signers confirmed (≥5) + roster filled
+[x] 4.x Devnet complete (mint, metadata, Squads execute, realm on-chain)
+[ ] 5.x V-001 counterparty + fund Impact vault (post-mainnet Squads)
 ```
 
-See also: [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md).
+See also: [docs/PHASE-2.md](./docs/PHASE-2.md) · [docs/NEXT-STEPS.md](./docs/NEXT-STEPS.md).
 
 ---
 

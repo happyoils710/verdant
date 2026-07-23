@@ -2,7 +2,7 @@
 
 **Version:** 0.1  
 **Last updated:** 2026-07-23  
-**Status:** Locked for Devnet. Change only via explicit amendment and doc PR.
+**Status:** Locked. Devnet complete; Phase 2 = signers + V-001 vendor + mainnet gate (`docs/PHASE-2.md`).
 
 These decisions close the “immediate checklist” gate: no mainnet ceremony until this file is stable.
 

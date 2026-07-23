@@ -35,6 +35,9 @@ VERD is a **governance token**. Impact comes only from approved, executed treasu
 | [docs/squads-realms-walkthrough.md](./docs/squads-realms-walkthrough.md) | Squads + Realms practice steps |
 | [docs/metadata-walkthrough.md](./docs/metadata-walkthrough.md) | Token metadata notes |
 | [docs/signer-recruitment.md](./docs/signer-recruitment.md) | Multisig recruitment |
+| [docs/PHASE-2.md](./docs/PHASE-2.md) | Signers → mainnet gate |
+| [docs/signer-invites-ready-to-send.md](./docs/signer-invites-ready-to-send.md) | Copy-paste invites |
+| [docs/v001-counterparty-guide.md](./docs/v001-counterparty-guide.md) | V-001 vendor research |
 | [proposals/V-000-ratify-charter.md](./proposals/V-000-ratify-charter.md) | Ratify policies (first vote) |
 | [proposals/V-001-draft.md](./proposals/V-001-draft.md) | First impact action draft |
 | [metadata/token.json](./metadata/token.json) | On-chain metadata template |
