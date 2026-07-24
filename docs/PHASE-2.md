@@ -32,8 +32,12 @@
 | 6 | Community / public goods | | | |
 | 7 | Security / legal ops | | | |
 
-**Minimum before mainnet ceremony:** **5 confirmed** including you + 1 independent + 1 tech.  
-**Ideal:** full 7.
+**Minimum before mainnet ceremony (strict):** **5 confirmed** including you + 1 independent + 1 tech.  
+**Ideal:** full 7.  
+
+**If recruiting is stuck:** use the **interim path** in `docs/signer-recruitment-stuck.md`  
+→ **2-of-3** or **3-of-5** with *real* people, publicly labeled **interim**, expand later.  
+Do **not** fake seats with burner wallets.
 
 **Actions this week**
 
